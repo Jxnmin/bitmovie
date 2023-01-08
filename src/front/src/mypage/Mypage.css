@@ -1,6 +1,6 @@
 div.mypage-div {
     width: 1500px;
-    height: 1500px;
+    height: 1550px;
     margin: 0 auto;
     padding: 50px 50px 50px;
     position: relative;
@@ -375,6 +375,6 @@ span.thumb-image {
 div.table-pagination {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     padding-right: 30px;
+    margin-top: 30px;
 }
