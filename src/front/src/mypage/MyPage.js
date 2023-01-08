@@ -172,9 +172,9 @@ function MyPage(props) {
                             </ul>
                         </li>
                         <li>
-                            <b className={"sidebar-menu-subtitle"}>회원 정보 변경</b>
+                            <b className={"sidebar-menu-subtitle"}>회원 정보</b>
                             <ul>
-                                <li className={`menu-items ${contents==="userInfo"?"selected-menu":""}`} onClick={()=>setContents("userInfo")}>개인정보 변경</li>
+                                <li className={`menu-items ${contents==="userInfo"?"selected-menu":""}`} onClick={()=>setContents("userInfo")}>회원 정보 변경</li>
                                 <li className={`menu-items ${contents==="withDrawal"?"selected-menu":""}`} onClick={()=>setContents("withDrawal")}>회원 탈퇴</li>
                             </ul>
                         </li>
