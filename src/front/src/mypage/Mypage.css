@@ -52,7 +52,6 @@ img.profile-photo {
 
 div.mypage-info-wrap {
     border-radius: 30px;
-    background-color: lightgray;
     position : relative;
     width: 900px;
     height: 400px;
@@ -90,6 +89,7 @@ div.mypage-info-wrap {
     margin-bottom: 15px;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .mypage-info-wrap .benefit-info {
@@ -141,10 +141,10 @@ div.mypage-info-wrap {
 
 
 div.lower-info-div .sidebar-menu {
-    background-color: Gainsboro;
     width: 382px;
     height: fit-content;
     padding: 30px;
+    border-radius: 10px;
 }
 
 div.lower-info-div .sidebar-menu ul {
@@ -180,13 +180,12 @@ b.sidebar-menu-subtitle {
 }
 
 .menu-items:hover {
-    background-color: silver;
+    background-color: #d8d8d8;
     box-shadow: darkgray 3px 3px 3px;
 }
 
 li .selected-menu {
-    background-color: silver;
-    box-shadow: darkgray 3px 3px 3px;
+    background-color: #f3f3f3;
 }
 
 
@@ -230,7 +229,7 @@ table.user-basic-info-table th{
     padding-left: 30px;
     font-size: 20px;
     width: 250px;
-    background-color: lightblue;
+    background-color: #f8f8fa;
 }
 
 .error-msg {
@@ -244,7 +243,7 @@ table.mypage-table {
 }
 
 table.mypage-table thead th {
-    background-color: #e2e2e0;
+    background-color: #f8f8fa;
     font-size: 20px;
     width: auto;
     height: 100px;
